@@ -1,34 +1,19 @@
 fileFormatVersion: 2
-guid: 520dbd3ffec06d245a61b118680d5e37
+guid: 831390dc92c46fe46b11fbcdd7b3e9ed
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2214141745734250876
-    second: tile_pavement_0
+      213: 1874166530604935825
+    second: tile-roadright-turn_0
   - first:
-      213: 7281674099981687054
-    second: tile_pavement_1
+      213: 230175110421405302
+    second: tile-roadright-turn_1
   - first:
-      213: -8227109536786939752
-    second: tile_pavement_2
+      213: 6023747877956240358
+    second: tile-roadright-turn_2
   - first:
-      213: 7271595739447383495
-    second: tile_pavement_3
-  - first:
-      213: -1269268970395848838
-    second: tile_pavement_4
-  - first:
-      213: 4783962024677513318
-    second: tile_pavement_5
-  - first:
-      213: -7055861745739484150
-    second: tile_pavement_6
-  - first:
-      213: -7606612007086096050
-    second: tile_pavement_7
-  - first:
-      213: 5742670516089562497
-    second: tile_pavement_8
+      213: -6353179620577465358
+    second: tile-roadright-turn_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -142,70 +127,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: tile_pavement_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c717adccf263abe10800000000000000
-      internalID: 2214141745734250876
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tile_pavement_1
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e0912939304bd0560800000000000000
-      internalID: 7281674099981687054
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tile_pavement_2
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8900693277f63dd80800000000000000
-      internalID: -8227109536786939752
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tile_pavement_3
+      name: tile-roadright-turn_0
       rect:
         serializedVersion: 2
         x: 0
@@ -219,14 +141,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7c551086cc5e9e460800000000000000
-      internalID: 7271595739447383495
+      spriteID: 19a22a2a780620a10800000000000000
+      internalID: 1874166530604935825
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tile_pavement_4
+      name: tile-roadright-turn_1
       rect:
         serializedVersion: 2
         x: 32
@@ -240,35 +162,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a7f2127a896a26ee0800000000000000
-      internalID: -1269268970395848838
+      spriteID: 67eddcc1b0fb13300800000000000000
+      internalID: 230175110421405302
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tile_pavement_5
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6689cdb6d1c046240800000000000000
-      internalID: 4783962024677513318
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tile_pavement_6
+      name: tile-roadright-turn_2
       rect:
         serializedVersion: 2
         x: 0
@@ -282,14 +183,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a043ee4302b841e90800000000000000
-      internalID: -7055861745739484150
+      spriteID: 6e34812a7c6a89350800000000000000
+      internalID: 6023747877956240358
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tile_pavement_7
+      name: tile-roadright-turn_3
       rect:
         serializedVersion: 2
         x: 32
@@ -303,29 +204,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e41896d5ea2ef6690800000000000000
-      internalID: -7606612007086096050
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tile_pavement_8
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 185a0ad886012bf40800000000000000
-      internalID: 5742670516089562497
+      spriteID: 2fbaa31bbc8f4d7a0800000000000000
+      internalID: -6353179620577465358
       vertices: []
       indices: 
       edges: []

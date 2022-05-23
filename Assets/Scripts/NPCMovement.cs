@@ -9,6 +9,8 @@ public class NPCMovement : MonoBehaviour
     public bool isMoving = true;
     [SerializeField] int xMovementAreaSize, yMovementAreaSize;
 
+    float timeAlive;
+    [SerializeField] float timeAliveMin, timeAliveMax;
     AIPath aiPath;
     Animator animator;
 
@@ -27,12 +29,22 @@ public class NPCMovement : MonoBehaviour
     private void Start()
     {
         aiPath.destination = new Vector2(Random.Range(-xMovementAreaSize, xMovementAreaSize), Random.Range(-yMovementAreaSize, yMovementAreaSize));
+        timeAlive = Random.Range(timeAliveMin, timeAliveMax);
     }
 
     private void Update()
     {
+
+        timeAlive -= Time.deltaTime;
+        if(timeAlive <= 0)
+        {
+            isMoving = false;
+            animator.SetBool("Dead", true);
+            GetComponentInChildren<NPCCanvas>().dead = true;
+        }
         if(!isMoving)
         {
+            aiPath.canMove = false;
             return;
         }
         if(GetComponent<AIPath>().reachedEndOfPath)
